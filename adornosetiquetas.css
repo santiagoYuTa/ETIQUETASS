@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.8;
+    color: #1e293b;
+    background-color: #f1f5f9;
+}
+.encabezado{
+    background: -moz-linear-gradient(#1e3a8a), (#2563eb);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+.encabezado h1{
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 10px;
+}
+.navegacion{
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 10px;
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: background-color: 0.4s;
+}
+.navegacion a hover, .navegacion:focus-visible{
+    background-color: #2563eb;
+}
+.contenedor{
+    whidth: main(1100px,92%);
+}
+section{
+    margin: auto;
+    scroll-margin-top: 20px;
+}
+section h1{
+    color: rgb(15, 141, 172);
+    margin-bottom: 180px;;
+}
+.bienvenida{
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px;
+    border-left: 6 px solid #2563eb;
+}
+.tarjeta{
+    background-color: while;
+    padding: 25px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
+    transform: 0.4s;
+}
+.tarjeta hover{
+    
+}
